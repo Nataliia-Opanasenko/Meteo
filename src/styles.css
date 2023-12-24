@@ -32,7 +32,7 @@ header {
 
 .search-form-button {
     background: #885df1;
-    padding: 15px 30px;
+    padding: 15px 25px;
     border: none;
     font-size: 16px;
     margin-left: 5px;
@@ -85,6 +85,34 @@ height: 88px;
 margin-top: 6px;
 font-size: 28px;
 }
+
+.weather-forecast {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.weather-app-date{
+      text-align: center;
+    color: rgba(39, 33, 66, 0.4);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.weather-forecast-temperatures {
+    text-align: center;
+    color: #f65282;
+    margin-top: 10px;
+    justify-content: center;
+}
+.weather-forecast-temperature-max {
+        padding: 0 10px;
+}
+.weather-forecast-temperature-max {
+    padding: 0 10px;
+}
+
 footer {
     border-top: 1px solid #f9f7fe;
     padding: 30px 0 0 0;
